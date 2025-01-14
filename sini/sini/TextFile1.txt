@@ -1,0 +1,61 @@
+﻿if (createRsp)
+        //    {
+        //        using (File.Create("rsp.rsp"))
+        //        {
+        //            File.WriteAllText("rsp.rsp", "sini\nbundle\n");
+        //            //Output
+        //        }
+        //    }
+        //    //        Console.WriteLine("output file name");
+        //    //        string oPut = Console.ReadLine();
+        //    //        if (oPut != null)
+        //    //        {
+        //    //            File.AppendAllText("rsp.rsp", "-o\n" + oPut + "\n");
+        //    //        }
+        //    //        //remove
+        //    //        Console.WriteLine("remove empty lines?(enter true only if needed)");
+        //    //        bool rmvL = Convert.ToBoolean(Console.ReadLine());
+        //    //        if (rmvL)
+        //    //        {
+        //    //            File.AppendAllText("rsp.rsp", "-r\n");
+        //    //        }
+        //    //        //language
+        //    //        List<string> languages = new List<string>();
+        //    //        languages.Add("sql");
+        //    //        languages.Add("text");
+        //    //        languages.Add("text");
+        //    //        languages.Add("all");
+        //    //        Console.WriteLine("enter expected language (file extention)(or all)");
+        //    //        string lang = Console.ReadLine();
+        //    //        if (lang != null)
+        //    //        {
+        //    //            if (languages.Contains(lang))
+        //    //                File.AppendAllText("rsp.rsp", "-l\n" + lang + "\n");
+        //    //            else
+        //    //                throw new languagexception();
+        //    //        }
+        //    //        //ath
+        //    //        Console.WriteLine("enter author name (or empty line )");
+        //    //        string atr = Console.ReadLine();
+        //    //        if (atr != null)
+        //    //        {
+        //    //            File.AppendAllText("rsp.rsp", "-a\n" + atr + "\n");
+        //    //        }
+        //    //        //note
+        //    //        Console.WriteLine("sould write relative path?(enter true only if needed)");
+        //    //        bool nt = Convert.ToBoolean(Console.ReadLine());
+        //    //        if (nt)
+        //    //        {
+        //    //            File.AppendAllText("rsp.rsp", "-n\n");
+        //    //        }
+        //    //        //sort
+        //    //        Console.WriteLine("sort by name/ press e to sort by extention");
+        //    //        string sortBy = Console.ReadLine();
+        //    //        if (sortBy != null)
+        //    //        {
+        //    //            File.AppendAllText("rsp.rsp", "-s\n");
+        //    //        }
+        //    //        return;
+        //    //    }
+        //    //}
+        ///*
